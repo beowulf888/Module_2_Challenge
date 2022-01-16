@@ -53,4 +53,4 @@ You can find the last 50 Commands from my GIT BASH here:
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+You don't need a license to use this file, but please send me $5 if you like it. Thanks. 
