@@ -18,7 +18,7 @@ In this section, you should include detailed installation notes containing code 
 
 ## Usage
 
-Welcome to the latest update of the load Qualifier Application.  In this version you will find the belwo updates: 
+Welcome to the latest update of the load Qualifier Application.  In this version you will find the below updates: 
 
   - a new prompt that will ask the user if they want to save the generated list of qualifying loans:  
 
@@ -36,6 +36,11 @@ Welcome to the latest update of the load Qualifier Application.  In this version
 written by Tom Cloud
 817-933-0223
 cloud.thomas@gmail.com
+
+You can find the last 50 Commands from my GIT BASH here: 
+
+[terminal_history.txt](https://github.com/beowulf888/Module_2_Challenge/files/7877841/terminal_history.txt)
+
 
 ---
 
