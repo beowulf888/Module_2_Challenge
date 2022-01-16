@@ -113,7 +113,7 @@ def save_qualifying_loans(qualifying_loans):
 
     # If no qualifying loans exist, notify user and exit    
     if len(qualifying_loans) == 0:
-        sys.exit("Sorry but no qualifying loans to save! The program will exit")
+        sys.exit("Sorry but no qualifying loans. The program will exit")
 
     # Prompts user to save the file
     answer = questionary.text("Do you want to save the Qualifying Loans list to a file?").ask()
@@ -129,7 +129,7 @@ def save_qualifying_loans(qualifying_loans):
         # Open the output CSV file path using 'with open'
         with open(csvpath, "w") as csvfile:
             csvwriter = csv.writer(csvfile)
-            csvwriter.writerow(qualifying_loans)
+            csvwriter.writerows(qualifying_loans)
 
     # prints the message
     print(message)
