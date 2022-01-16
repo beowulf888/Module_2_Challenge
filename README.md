@@ -18,7 +18,16 @@ In this section, you should include detailed installation notes containing code 
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+Welcome to the latest update of the load Qualifier Application.  In this version you will find the belwo updates: 
+
+  - a new prompt that will ask the user if they want to save the generated list of qualifying loans:  
+
+  ![image](https://user-images.githubusercontent.com/73894280/149674621-9a982ab3-6d56-46c9-8b70-babeacd677eb.png)
+
+
+  - a new peonmpt that will ask the user where they want to save the list of qualifying loans: 
+  
+  ![image](https://user-images.githubusercontent.com/73894280/149675182-002e63b6-8b40-4057-a307-062da40e9035.png)
 
 ---
 
