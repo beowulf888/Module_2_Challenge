@@ -8,13 +8,18 @@ Welcome to the Module 2 Challenge Readme file for my SMU FinTech BootCamp Course
 
 ## Technologies
 
-This Loan Qualifier Project is written in Python 3.9 and uses libraries Sys, Fire, Questionary, Path, and CSV. Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This Loan Qualifier Project is written in Python 3.9 and uses libraries Sys, Fire, Questionary, Path, and CSV. 
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+In a bash terminal, navigate to the C:\python\Class_Activities\module_2_challenge\loan_qualifier_app\ directory and run the following command: 
+
+python app.py
+
+![image](https://user-images.githubusercontent.com/73894280/149681525-b0e5fc8d-691b-4d37-92aa-b3d9b97ff7d5.png)
+
 
 ---
 
