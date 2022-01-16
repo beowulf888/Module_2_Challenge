@@ -1,0 +1,50 @@
+  346  git add .
+  347  git status
+  348  git push
+  349  git commit
+  350  cd ..
+  351  cd ..
+  352  ls
+  353  cd python
+  354  cd class_activities
+  355  ls
+  356  cd module_2_challenge
+  357  ls
+  358  git status
+  359  git commit -m "update readme"
+  360  git push
+  361  ls
+  362  git status
+  363  git add .
+  364  git status
+  365  git commit -m "Updated readme file and added project  files to working directory" 
+  366  git push
+  367  git status
+  368  git add .
+  369  git status
+  370  git commit -m "updated readme"
+  371  git push
+  372  pwd
+  373  cd ..
+  374   cd ..
+  375   cd ..
+  376  cd python
+  377  ls
+  378  pwd
+  379  cd ,,
+  380  cd ..
+  381  pwd
+  382  ls
+  383  cd ..
+  384  cd ..
+  385  cd ..
+  386  pwd
+  387  cd c
+  388  ls
+  389  cd python
+  390  ls
+  391  cd class_activities
+  392  ls
+  393  cd module_2_activities
+  394  cd module_2_challenge
+  395  history 50 > terminal_history.txt
