@@ -101,7 +101,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
-
+import csv
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
@@ -110,6 +110,25 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
+    qualifying_loans=("lehman, goldman")
+    # Prompts user to save the file
+    answer = questionary.text("Do you want to save the Qualifying Loans list to a file?").ask()
+    message = "Too bad, your results will not be saved. :("
+    
+    if answer == 'yes':
+        message = "OK, great, the list has been saved as a CSV file"
+        
+        # Create a path to a new CSV file
+        csvpath = Path("Module_2_Challenge\loan_qualifier_app\data\qualifying_loans_list.csv")
+       
+        # Open the output CSV file path using 'with open'
+        with open(csvpath, "w") as csvfile:
+            csvwriter = csv.writer(csvfile)
+            csvwriter.writerow(qualifying_loans)
+
+    print(message)
+  
+
 
 
 def run():
