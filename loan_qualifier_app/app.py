@@ -110,16 +110,17 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    qualifying_loans=("lehman, goldman")
+    qualifying_loans=("lehman, goldman, bear")
     # Prompts user to save the file
     answer = questionary.text("Do you want to save the Qualifying Loans list to a file?").ask()
     message = "Too bad, your results will not be saved. :("
     
     if answer == 'yes':
+        answer2 = questionary.text("Where should the file be saved?").ask()
         message = "OK, great, the list has been saved as a CSV file"
         
         # Create a path to a new CSV file
-        csvpath = Path("Module_2_Challenge\loan_qualifier_app\data\qualifying_loans_list.csv")
+        csvpath = Path(answer2)
        
         # Open the output CSV file path using 'with open'
         with open(csvpath, "w") as csvfile:
